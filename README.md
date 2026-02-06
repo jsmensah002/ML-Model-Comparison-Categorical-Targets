@@ -1,5 +1,5 @@
 Project Goal: 
--Compare the performance of three machine learning models—Logistic Regression (LR), Support Vector Machine (SVM), and Random Forest Classifier (RF) for predicting categorical outcomes. The dataset used focuses on customer churn prediction.
+-Compare the performance of three machine learning models—Logistic Regression (LR), Support Vector Machine (SVM), and Random Forest Classifier (RF) for predicting a categorical outcome. The dataset used focuses on customer churn prediction.
 
 Method: 
 - Built and trained three separate models (LR, SVM, RF) to predict customer churn.
@@ -23,5 +23,6 @@ Random Forest Results:
 - R^2 (Tested 20% of the dataset) = 0.8010
 - Churn prediction = 1
 
-Key Insights:
-- 
+Key Insight:
+- Based on the test performance, the Support Vector Machine (SVM) achieved the highest test score and showed no signs of overfitting, making it the most reliable model. Although the Random Forest Classifier (RF) also achieved a high test score, it exhibited signs of overfitting, reducing its reliability.
+
