@@ -24,5 +24,5 @@ Random Forest Classifier Results:
 - Churn prediction = 1
 
 Key Insight:
-- Based on the test performance, the Support Vector Machine (SVM) achieved the highest test score and showed no signs of overfitting, making it the most reliable model for this dataset. Although the Random Forest Classifier (RF) also achieved a high test score, it exhibited signs of overfitting, reducing its reliability.
+- Based on the test performance, the Support Vector Machine (SVM) achieved the highest test score AND showed no signs of overfitting, making it the most reliable model for this dataset. Although the Random Forest Classifier (RF) also achieved a high test score, it exhibited signs of overfitting, reducing its reliability.
 
