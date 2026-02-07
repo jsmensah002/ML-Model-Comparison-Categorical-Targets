@@ -5,7 +5,7 @@ Method:
 - Built and trained three separate models (LR, SVC, RFC) to predict customer churn.
 - Compared model performance using relevant metrics, highlighting accuracy, stability, and suitability for the dataset. 
 
-Logistic Regression Results (with a balanced class weight):
+Logistic Regression Result:
 - R^2 (full dataset) = 0.7147
 - R^2 (Trained 80% of the dataset) = 0.7142
 - R^2 (Tested 20% of the dataset) = 0.7165
