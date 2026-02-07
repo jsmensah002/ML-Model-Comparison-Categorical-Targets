@@ -12,17 +12,18 @@ Logistic Regression Result:
 - Churn prediction = 0
 
 Support Vector Classification Results:
-- R^2 (full dataset) = 0.7963
-- R^2 (Trained 80% of the dataset) = 0.7945
-- R^2 (Tested 20% of the dataset) = 0.8035
+- R^2 (full dataset) = 0.7394
+- R^2 (Trained 80% of the dataset) = 0.7392
+- R^2 (Tested 20% of the dataset) = 0.7400
 - Churn prediction = 0
 
 Random Forest Classifier Results:
-- R^2 (full dataset) = 0.9569
-- R^2 (Trained 80% of the dataset) = 0.9957
-- R^2 (Tested 20% of the dataset) = 0.8010
-- Churn prediction = 1
+- R^2 (full dataset) = 0.9568
+- R^2 (Trained 80% of the dataset) = 0.9964
+- R^2 (Tested 20% of the dataset) = 0.7985
+- Churn prediction = 0
 
 Key Insight:
-- Based on the test performance, the Support Vector Classification (SVC) achieved the highest test score AND showed no signs of overfitting, making it the most reliable model for this dataset. Although the Random Forest Classifier (RF) also achieved a high test score, it exhibited signs of overfitting, reducing its reliability.
+- Although the Random Forest Classifier achieved the highest test score, it showed clear signs of overfitting, which reduces its reliability and makes it a less suitable choice.
+- The Support Vector Classification model recorded the next highest test score and demonstrated no signs of overfitting, making it the most appropriate model to use.
 
