@@ -1,5 +1,5 @@
 Project Goal: 
-- Compare the performance of three machine learning models: Logistic Regression (LR), Support Vector Classification (SVC), and Random Forest Classifier (RFC) for predicting a categorical outcome. The dataset used focuses on customer churn prediction using Gender, CreditScore,Age, and Tenure.
+- Compare the performance of three machine learning models: Logistic Regression (LR), Support Vector Classification (SVC), and Random Forest Classifier (RFC) for predicting a categorical outcome. The dataset used focuses on customer churn prediction using Gender, CreditScore,Age, and Tenure features.
 
 Method: 
 - Built and trained three separate models (LR, SVC, RFC) to predict customer churn.
